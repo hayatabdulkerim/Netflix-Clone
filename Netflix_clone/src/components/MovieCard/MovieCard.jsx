@@ -12,7 +12,7 @@ function MovieCard({movie}) {
       {/* poster image */}
       <img
         className={styles.poster}
-        src={movie.poster_path}
+        src={movie?.poster_path}
         alt="poster image"
       />
 
@@ -21,7 +21,7 @@ function MovieCard({movie}) {
         {/* img */}
         <img
           className={styles.hoverImage}
-          src={movie.poster_path}
+          src={movie?.poster_path}
           alt="hover image"
         />
 
