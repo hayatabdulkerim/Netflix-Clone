@@ -59,7 +59,6 @@
   border-radius: 8px 8px 0 0;
 }
 
-
 .badge {
   background: red;
   color: white;
@@ -97,10 +96,7 @@
   color: white;
   font-size: 16px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
+  margin-left: 150px;
   transition:
     background 0.2s ease,
     border-color 0.2s ease;
@@ -121,6 +117,6 @@
   margin: 6px 12px 12px 12px;
   line-height: 1.4;
 }
-.tag{
-    color: #ddd;
+.tag {
+  color: #ddd;
 }
