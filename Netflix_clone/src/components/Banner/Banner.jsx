@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import NetflixBannerLogo from "../../assets/image/logo.png";
 import { Play, Info } from "lucide-react";
 import styles from "./Banner.module.css";
